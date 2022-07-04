@@ -1,0 +1,37 @@
+{
+  "name": "project",
+  "dependencies": {
+    "nanoid": "3.1.28",
+    "react": "17.0.2",
+    "react-confetti": "6.0.1",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.4.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0",
+    "babel-loader": "^7.0",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "webpack": "^2.0"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "watch": "webpack -w",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
